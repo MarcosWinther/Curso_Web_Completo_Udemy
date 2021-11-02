@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Cor e Imagem de Fundo</title>
+
+		<style type="text/css">
+
+			h1 {
+				/* background-image: url('imagens/yoshi.png'); */
+
+				/* background-repeat: repeat, no-repeat, repeat-x, repeat-y */
+				background-repeat: repeat-x;
+
+				/* background-attachment: fixed, scroll*/
+				background-attachment: scroll;
+
+				/* 
+					background-position: 
+					- primeiro valor: center, left, right;
+					- segundo valor:  center, top, bottom;
+				*/
+				background-position: center center;
+			}
+
+			.fundo {
+				background: blue url('imagens/yoshi.png') repeat-x scroll center top;
+			}
+
+		</style>
+
+	</head>
+
+	<body class="fundo">
+
+		<h1>
+			Conteúdo de Título 1 <br>
+		</h1>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec massa in mi gravida egestas. Nam dui sem, lobortis tristique ligula sed, finibus consequat velit. Aliquam pulvinar convallis luctus. Etiam auctor metus justo, at iaculis augue condimentum sit amet. Aliquam vulputate enim nibh, rhoncus gravida massa dignissim nec. Suspendisse potenti. Sed semper finibus ex sit amet mattis. Nam malesuada leo a dolor molestie, id luctus nisl semper. Nulla posuere pellentesque ligula, ut porttitor turpis sollicitudin nec. Nulla ac vehicula turpis. Fusce mattis odio nisl, a tempor erat placerat sit amet. Cras tristique posuere massa, et posuere velit. Donec neque lectus, scelerisque a ligula at, ultrices posuere eros. Nulla cursus sed sem eu vestibulum.
+		</p>
+
+		<br>
+
+		<p>
+			Curabitur eget erat varius, maximus mi nec, scelerisque dolor. Vivamus tincidunt aliquam quam et egestas. Morbi aliquet nisl at lacus congue volutpat. Vestibulum fermentum purus turpis, nec accumsan massa mollis eu. Morbi a vulputate libero. Nunc scelerisque iaculis ante nec imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut lacinia posuere eros, tincidunt vehicula nisi egestas vel. Fusce consectetur scelerisque nulla ac consequat. Aenean vel aliquam metus. Fusce efficitur consectetur leo, a molestie justo. Praesent vel quam at orci porttitor efficitur.
+		</p>
+
+	</body>
+
+</html>
