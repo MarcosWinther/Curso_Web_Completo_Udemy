@@ -1,0 +1,13 @@
+/* Modelo de Caixa */
+
+.conteudo {
+	border: 1px solid red;
+
+	/* padding: espaçamento interno; */
+	padding: 20px;
+
+	/* marge:  espaçamento externo; */
+	margin: 20px;
+
+	width: 150px;
+}
