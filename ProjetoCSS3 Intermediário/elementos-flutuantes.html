@@ -9,6 +9,11 @@
 
 		<style type="text/css">
 
+			#principal {
+				border: 1px solid red;
+				background: green;
+			}
+
 			.conteudo {
 				background: blue;
 				border: 1px solid gray;
@@ -20,13 +25,18 @@
 				float: left;
 			}
 
-			/*.conteudo1 {
+			/* .conteudo1 {
 				background: red;
 				border: 1px solid gray;
 				width: 150px;
 				height: 150px;
-				float: right;
-			}*/
+				margin: 10px;
+				float: left;
+			} */
+
+			.clear {
+				clear: left;
+			}
 
 		</style>
 
@@ -34,16 +44,22 @@
 
 	<body>
 
-		<div class="conteudo">
-			Conteúdo 1
-		</div>
+		<div id="principal"> 
 
-		<div class="conteudo">
-			Conteúdo 2
-		</div>
+			<div class="conteudo">
+				Conteúdo 1
+			</div>
 
-		<div class="conteudo">
-			Conteúdo 3
+			<div class="conteudo">
+				Conteúdo 2
+			</div>
+
+			<div class="conteudo">
+				Conteúdo 3
+			</div>
+
+			<div class="clear"></div>
+
 		</div>
 
 	</body>
